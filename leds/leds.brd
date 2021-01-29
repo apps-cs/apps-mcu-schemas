@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.0125" unitdist="inch" unit="mm" style="dots" multiple="1" display="yes" altdistance="0.0125" altunitdist="inch" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="100" name="Popis" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<board>
+<plain>
+<wire x1="-0.9525" y1="-0.635" x2="102.5525" y2="-0.635" width="0" layer="20"/>
+<text x="13.0175" y="17.78" size="3" layer="100" font="vector" ratio="15" distance="85">LED0</text>
+<text x="79.6925" y="17.78" size="3" layer="100" font="vector" ratio="15" distance="85">LED7</text>
+<text x="33.655" y="1.27" size="3" layer="100" font="vector" ratio="15" distance="85">RGB0</text>
+<text x="46.0375" y="1.27" size="3" layer="100" font="vector" ratio="15" distance="85">RGB1</text>
+<text x="58.42" y="1.27" size="3" layer="100" font="vector" ratio="15" distance="85">RGB2</text>
+<wire x1="104.4575" y1="1.27" x2="104.4575" y2="34.29" width="0" layer="20"/>
+<wire x1="102.5525" y1="36.195" x2="-0.9525" y2="36.195" width="0" layer="20"/>
+<wire x1="-2.8575" y1="34.29" x2="-2.8575" y2="1.27" width="0" layer="20"/>
+<wire x1="-2.8575" y1="34.29" x2="-0.9525" y2="36.195" width="0" layer="20" curve="-90"/>
+<wire x1="-0.9525" y1="-0.635" x2="-2.8575" y2="1.27" width="0" layer="20" curve="-90"/>
+<wire x1="104.4575" y1="1.27" x2="102.5525" y2="-0.635" width="0" layer="20" curve="-90"/>
+<wire x1="102.5525" y1="36.195" x2="104.4575" y2="34.29" width="0" layer="20" curve="-90"/>
+<text x="75.2475" y="1.5875" size="1.016" layer="29">LED modul v4 2020 
+david.seidl@vsb.cz
+petr.olivka@vsb.cz</text>
+<text x="-4.445" y="43.815" size="1.778" layer="1">Potisk pouze ze strany TOP, vrstva 100!!</text>
+</plain>
+<libraries>
+<library name="patice_kit">
+<packages>
+<package name="PATICE_CERVENA">
+<pad name="VCC" x="0" y="0" drill="0.8" shape="long"/>
+<pad name="GND" x="0" y="-2.54" drill="0.8" shape="long"/>
+<pad name="CB0" x="0" y="-5.08" drill="0.8" shape="long"/>
+<pad name="CB1" x="0" y="-7.62" drill="0.8" shape="long"/>
+<pad name="CB2" x="0" y="-10.16" drill="0.8" shape="long"/>
+<pad name="CB3" x="0" y="-12.7" drill="0.8" shape="long"/>
+<pad name="CB4" x="0" y="-15.24" drill="0.8" shape="long"/>
+<pad name="CB5" x="0" y="-17.78" drill="0.8" shape="long"/>
+<pad name="CB6" x="0" y="-20.32" drill="0.8" shape="long"/>
+<pad name="CB7" x="0" y="-22.86" drill="0.8" shape="long"/>
+<pad name="CB8" x="0" y="-25.4" drill="0.8" shape="long"/>
+<pad name="CB9" x="0" y="-27.94" drill="0.8" shape="long"/>
+<pad name="CB10" x="0" y="-30.48" drill="0.8" shape="long"/>
+<pad name="CB11" x="0" y="-33.02" drill="0.8" shape="long"/>
+<pad name="GND/" x="86.36" y="-30.48" drill="0.8" shape="long"/>
+<pad name="VCC/" x="86.36" y="-33.02" drill="0.8" shape="long"/>
+</package>
+<package name="PATICE_ZELENA">
+<pad name="VCC" x="0" y="0" drill="0.8" shape="long"/>
+<pad name="GND" x="0" y="-2.54" drill="0.8" shape="long"/>
+<pad name="AD0" x="0" y="-5.08" drill="0.8" shape="long"/>
+<pad name="AD1" x="0" y="-7.62" drill="0.8" shape="long"/>
+<pad name="AD2" x="0" y="-10.16" drill="0.8" shape="long"/>
+<pad name="AD3" x="0" y="-12.7" drill="0.8" shape="long"/>
+<pad name="AD4" x="0" y="-15.24" drill="0.8" shape="long"/>
+<pad name="AD5" x="0" y="-17.78" drill="0.8" shape="long"/>
+<pad name="AD6" x="0" y="-20.32" drill="0.8" shape="long"/>
+<pad name="AD7" x="0" y="-22.86" drill="0.8" shape="long"/>
+<pad name="AD8" x="0" y="-25.4" drill="0.8" shape="long"/>
+<pad name="AD9" x="0" y="-27.94" drill="0.8" shape="long"/>
+<pad name="AD10" x="0" y="-30.48" drill="0.8" shape="long"/>
+<pad name="AD11" x="0" y="-33.02" drill="0.8" shape="long"/>
+<pad name="GND/" x="93.98" y="-30.48" drill="0.8" shape="long"/>
+<pad name="GND//" x="101.6" y="-30.48" drill="0.8" shape="long"/>
+<pad name="VCC/" x="93.98" y="-33.02" drill="0.8" shape="long"/>
+<pad name="VCC//" x="101.6" y="-33.02" drill="0.8" shape="long"/>
+</package>
+</packages>
+</library>
+<library name="resistor-net" urn="urn:adsk.eagle:library:343">
+<description>&lt;b&gt;Generic Resistor Networks&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="CTS742C083" urn="urn:adsk.eagle:footprint:24972/1" library_version="2">
+<description>&lt;b&gt;Chip Resistor Array&lt;/b&gt;&lt;p&gt;
+Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</description>
+<wire x1="-1.55" y1="0.75" x2="-1.45" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="-1.45" y1="0.75" x2="-1.3" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="-1.3" y1="0.6" x2="-1.1" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="-1.1" y1="0.6" x2="-0.95" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="-0.95" y1="0.75" x2="-0.65" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="-0.15" y1="0.75" x2="0.15" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="0.65" y1="0.75" x2="0.95" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="0.75" x2="1.55" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.55" y1="0.75" x2="1.55" y2="-0.75" width="0.1016" layer="21"/>
+<wire x1="1.55" y1="-0.75" x2="1.45" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="0.95" y1="-0.75" x2="0.65" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="0.15" y1="-0.75" x2="-0.15" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-0.65" y1="-0.75" x2="-0.95" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-1.45" y1="-0.75" x2="-1.55" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-1.55" y1="-0.75" x2="-1.55" y2="0.75" width="0.1016" layer="21"/>
+<wire x1="-0.65" y1="0.75" x2="-0.5" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="-0.5" y1="0.6" x2="-0.3" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="-0.3" y1="0.6" x2="-0.15" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="0.15" y1="0.75" x2="0.3" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="0.3" y1="0.6" x2="0.5" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="0.5" y1="0.6" x2="0.65" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="0.95" y1="0.75" x2="1.1" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="1.1" y1="0.6" x2="1.3" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="1.3" y1="0.6" x2="1.45" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.45" y1="-0.75" x2="1.3" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="1.3" y1="-0.6" x2="1.1" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="1.1" y1="-0.6" x2="0.95" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="0.65" y1="-0.75" x2="0.5" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="0.5" y1="-0.6" x2="0.3" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="0.3" y1="-0.6" x2="0.15" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-0.15" y1="-0.75" x2="-0.3" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="-0.3" y1="-0.6" x2="-0.5" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="-0.5" y1="-0.6" x2="-0.65" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-0.95" y1="-0.75" x2="-1.1" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="-1.1" y1="-0.6" x2="-1.3" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="-1.3" y1="-0.6" x2="-1.45" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="1.55" y1="-0.45" x2="-1.55" y2="-0.45" width="0.1016" layer="51"/>
+<wire x1="-1.55" y1="0.45" x2="1.55" y2="0.45" width="0.1016" layer="51"/>
+<smd name="1" x="-1.2" y="-0.8" dx="0.5" dy="0.9" layer="1" stop="no"/>
+<smd name="2" x="-0.4" y="-0.8" dx="0.5" dy="0.9" layer="1" stop="no"/>
+<smd name="3" x="0.4" y="-0.8" dx="0.5" dy="0.9" layer="1" stop="no"/>
+<smd name="4" x="1.2" y="-0.8" dx="0.5" dy="0.9" layer="1" stop="no"/>
+<smd name="5" x="1.2" y="0.8" dx="0.5" dy="0.9" layer="1" stop="no"/>
+<smd name="6" x="0.4" y="0.8" dx="0.5" dy="0.9" layer="1" stop="no"/>
+<smd name="7" x="-0.4" y="0.8" dx="0.5" dy="0.9" layer="1" stop="no"/>
+<smd name="8" x="-1.2" y="0.8" dx="0.5" dy="0.9" layer="1" stop="no"/>
+<text x="-1.778" y="1.524" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.778" y="-2.794" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.5" y1="-1.3" x2="-0.9" y2="-0.3" layer="29"/>
+<rectangle x1="-0.7" y1="-1.3" x2="-0.1" y2="-0.3" layer="29"/>
+<rectangle x1="0.1" y1="-1.3" x2="0.7" y2="-0.3" layer="29"/>
+<rectangle x1="0.9" y1="-1.3" x2="1.5" y2="-0.3" layer="29"/>
+<rectangle x1="0.9" y1="0.3" x2="1.5" y2="1.3" layer="29" rot="R180"/>
+<rectangle x1="0.1" y1="0.3" x2="0.7" y2="1.3" layer="29" rot="R180"/>
+<rectangle x1="-0.7" y1="0.3" x2="-0.1" y2="1.3" layer="29" rot="R180"/>
+<rectangle x1="-1.5" y1="0.3" x2="-0.9" y2="1.3" layer="29" rot="R180"/>
+<polygon width="0.1016" layer="51">
+<vertex x="-0.6" y="-0.675"/>
+<vertex x="-0.6" y="-0.45"/>
+<vertex x="-0.2" y="-0.45"/>
+<vertex x="-0.2" y="-0.675"/>
+<vertex x="-0.3" y="-0.575"/>
+<vertex x="-0.5" y="-0.575"/>
+</polygon>
+<polygon width="0.1016" layer="51">
+<vertex x="-1.4" y="-0.675"/>
+<vertex x="-1.4" y="-0.45"/>
+<vertex x="-1" y="-0.45"/>
+<vertex x="-1" y="-0.675"/>
+<vertex x="-1.1" y="-0.575"/>
+<vertex x="-1.3" y="-0.575"/>
+</polygon>
+<polygon width="0.1016" layer="51">
+<vertex x="0.2" y="-0.675"/>
+<vertex x="0.2" y="-0.45"/>
+<vertex x="0.6" y="-0.45"/>
+<vertex x="0.6" y="-0.675"/>
+<vertex x="0.5" y="-0.575"/>
+<vertex x="0.3" y="-0.575"/>
+</polygon>
+<polygon width="0.1016" layer="51">
+<vertex x="1" y="-0.675"/>
+<vertex x="1" y="-0.45"/>
+<vertex x="1.4" y="-0.45"/>
+<vertex x="1.4" y="-0.675"/>
+<vertex x="1.3" y="-0.575"/>
+<vertex x="1.1" y="-0.575"/>
+</polygon>
+<polygon width="0.1016" layer="51">
+<vertex x="1.4" y="0.675"/>
+<vertex x="1.4" y="0.45"/>
+<vertex x="1" y="0.45"/>
+<vertex x="1" y="0.675"/>
+<vertex x="1.1" y="0.575"/>
+<vertex x="1.3" y="0.575"/>
+</polygon>
+<polygon width="0.1016" layer="51">
+<vertex x="0.6" y="0.675"/>
+<vertex x="0.6" y="0.45"/>
+<vertex x="0.2" y="0.45"/>
+<vertex x="0.2" y="0.675"/>
+<vertex x="0.3" y="0.575"/>
+<vertex x="0.5" y="0.575"/>
+</polygon>
+<polygon width="0.1016" layer="51">
+<vertex x="-0.2" y="0.675"/>
+<vertex x="-0.2" y="0.45"/>
+<vertex x="-0.6" y="0.45"/>
+<vertex x="-0.6" y="0.675"/>
+<vertex x="-0.5" y="0.575"/>
+<vertex x="-0.3" y="0.575"/>
+</polygon>
+<polygon width="0.1016" layer="51">
+<vertex x="-1" y="0.675"/>
+<vertex x="-1" y="0.45"/>
+<vertex x="-1.4" y="0.45"/>
+<vertex x="-1.4" y="0.675"/>
+<vertex x="-1.3" y="0.575"/>
+<vertex x="-1.1" y="0.575"/>
+</polygon>
+</package>
+</packages>
+<packages3d>
+<package3d name="CTS742C083" urn="urn:adsk.eagle:package:24985/1" type="box" library_version="2">
+<description>Chip Resistor Array
+Source: http://www.ctscorp.com/components/Datasheets/CTSChipArrayDs.pdf</description>
+<packageinstances>
+<packageinstance name="CTS742C083"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="CLP6C-FKB-CM1Q1H1BB7R3R3">
+<description>&lt;Cree,LED,CLP6C-FKB-CM1Q1H1BB7R3R3 Cree CLP6C-FKB-CM1Q1H1BB7R3R3, CLP6 Series Green LED, 540 nm, PLCC 6, Round Lens SMD Package&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="CLP6CFKBCM1Q1H1BB7R3R3">
+<description>&lt;b&gt;LP6&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.7" y="2.3" dx="3" dy="2" layer="1"/>
+<smd name="2" x="-2.7" y="0" dx="3" dy="1.6" layer="1"/>
+<smd name="3" x="-2.7" y="-2.3" dx="3" dy="2" layer="1"/>
+<smd name="4" x="2.7" y="-2.3" dx="3" dy="2" layer="1"/>
+<smd name="5" x="2.7" y="0" dx="3" dy="1.6" layer="1"/>
+<smd name="6" x="2.7" y="2.3" dx="3" dy="2" layer="1"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.5" y1="3" x2="2.5" y2="3" width="0.2" layer="51"/>
+<wire x1="2.5" y1="3" x2="2.5" y2="-3" width="0.2" layer="51"/>
+<wire x1="2.5" y1="-3" x2="-2.5" y2="-3" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="-3" x2="-2.5" y2="3" width="0.2" layer="51"/>
+<wire x1="-5.2" y1="4.3" x2="5.2" y2="4.3" width="0.1" layer="51"/>
+<wire x1="5.2" y1="4.3" x2="5.2" y2="-4.3" width="0.1" layer="51"/>
+<wire x1="5.2" y1="-4.3" x2="-5.2" y2="-4.3" width="0.1" layer="51"/>
+<wire x1="-5.2" y1="-4.3" x2="-5.2" y2="4.3" width="0.1" layer="51"/>
+<wire x1="-2.813" y1="1.055" x2="-2.813" y2="1.055" width="0.032" layer="21"/>
+<wire x1="-2.813" y1="1.055" x2="-2.781" y2="1.055" width="0.032" layer="21" curve="180"/>
+<wire x1="-2.781" y1="1.055" x2="-2.781" y2="1.055" width="0.032" layer="21"/>
+<wire x1="-2.781" y1="1.055" x2="-2.813" y2="1.055" width="0.032" layer="21" curve="180"/>
+<wire x1="-1" y1="3" x2="1" y2="3" width="0.1" layer="21"/>
+<wire x1="-1" y1="-3" x2="1" y2="-3" width="0.1" layer="21"/>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default">
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="8mil"/>
+<param name="mdWirePad" value="8mil"/>
+<param name="mdWireVia" value="8mil"/>
+<param name="mdPadPad" value="8mil"/>
+<param name="mdPadVia" value="8mil"/>
+<param name="mdViaVia" value="8mil"/>
+<param name="mdSmdPad" value="8mil"/>
+<param name="mdSmdVia" value="8mil"/>
+<param name="mdSmdSmd" value="8mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="8mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="10mil"/>
+<param name="msDrill" value="24mil"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="|"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="-"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+</autorouter>
+<elements>
+<element name="PORT_B" library="patice_kit" package="PATICE_CERVENA" value="" x="7.62" y="34.29" smashed="yes">
+<attribute name="NEOSAZOVAT" value="X" x="7.62" y="34.29" size="1.778" layer="27" display="off"/>
+</element>
+<element name="PORT_D" library="patice_kit" package="PATICE_ZELENA" value="PATICE_ZELENA" x="101.6" y="1.27" smashed="yes" rot="R180">
+<attribute name="NEOSAZOVAT" value="X" x="101.6" y="1.27" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="RN4" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="260" x="85.725" y="18.415" smashed="yes" rot="MR270">
+<attribute name="FARNELL" value="2908182" x="85.725" y="18.415" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="" x="85.725" y="18.415" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="" x="85.725" y="18.415" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="84.201" y="20.193" size="1.27" layer="26" rot="MR270"/>
+<attribute name="OC_FARNELL" value="unknown" x="85.725" y="18.415" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="85.725" y="18.415" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="POPULARITY" value="0" x="85.725" y="18.415" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="88.519" y="20.193" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="LED1" library="CLP6C-FKB-CM1Q1H1BB7R3R3" package="CLP6CFKBCM1Q1H1BB7R3R3" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="56.1975" y="27.6225" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Cree,LED,CLP6C-FKB-CM1Q1H1BB7R3R3 Cree CLP6C-FKB-CM1Q1H1BB7R3R3, CLP6 Series Green LED, 540 nm, PLCC 6, Round Lens SMD Package" x="56.1975" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="2.6mm" x="56.1975" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Cree, Inc." x="56.1975" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="56.1975" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="941-P6CFKBCM1Q1H17R3" x="56.1975" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=941-P6CFKBCM1Q1H17R3" x="56.1975" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="56.1975" y="27.6225" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8106939P" x="56.1975" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8106939P" x="56.1975" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="56.1975" y="27.6225" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="LED2" library="CLP6C-FKB-CM1Q1H1BB7R3R3" package="CLP6CFKBCM1Q1H1BB7R3R3" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="65.7225" y="27.6225" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Cree,LED,CLP6C-FKB-CM1Q1H1BB7R3R3 Cree CLP6C-FKB-CM1Q1H1BB7R3R3, CLP6 Series Green LED, 540 nm, PLCC 6, Round Lens SMD Package" x="65.7225" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="2.6mm" x="65.7225" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Cree, Inc." x="65.7225" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="65.7225" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="941-P6CFKBCM1Q1H17R3" x="65.7225" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=941-P6CFKBCM1Q1H17R3" x="65.7225" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="65.7225" y="27.6225" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8106939P" x="65.7225" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8106939P" x="65.7225" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="65.7225" y="27.6225" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="LED3" library="CLP6C-FKB-CM1Q1H1BB7R3R3" package="CLP6CFKBCM1Q1H1BB7R3R3" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="75.2475" y="27.6225" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Cree,LED,CLP6C-FKB-CM1Q1H1BB7R3R3 Cree CLP6C-FKB-CM1Q1H1BB7R3R3, CLP6 Series Green LED, 540 nm, PLCC 6, Round Lens SMD Package" x="75.2475" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="2.6mm" x="75.2475" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Cree, Inc." x="75.2475" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="75.2475" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="941-P6CFKBCM1Q1H17R3" x="75.2475" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=941-P6CFKBCM1Q1H17R3" x="75.2475" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="75.2475" y="27.6225" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8106939P" x="75.2475" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8106939P" x="75.2475" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="75.2475" y="27.6225" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="LED4" library="CLP6C-FKB-CM1Q1H1BB7R3R3" package="CLP6CFKBCM1Q1H1BB7R3R3" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="84.7725" y="27.6225" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Cree,LED,CLP6C-FKB-CM1Q1H1BB7R3R3 Cree CLP6C-FKB-CM1Q1H1BB7R3R3, CLP6 Series Green LED, 540 nm, PLCC 6, Round Lens SMD Package" x="84.7725" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="2.6mm" x="84.7725" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Cree, Inc." x="84.7725" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="84.7725" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="941-P6CFKBCM1Q1H17R3" x="84.7725" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=941-P6CFKBCM1Q1H17R3" x="84.7725" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="84.7725" y="27.6225" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8106939P" x="84.7725" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8106939P" x="84.7725" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="84.7725" y="27.6225" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="LED5" library="CLP6C-FKB-CM1Q1H1BB7R3R3" package="CLP6CFKBCM1Q1H1BB7R3R3" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="18.0975" y="27.6225" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Cree,LED,CLP6C-FKB-CM1Q1H1BB7R3R3 Cree CLP6C-FKB-CM1Q1H1BB7R3R3, CLP6 Series Green LED, 540 nm, PLCC 6, Round Lens SMD Package" x="18.0975" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="2.6mm" x="18.0975" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Cree, Inc." x="18.0975" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="18.0975" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="941-P6CFKBCM1Q1H17R3" x="18.0975" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=941-P6CFKBCM1Q1H17R3" x="18.0975" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="18.0975" y="27.6225" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8106939P" x="18.0975" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8106939P" x="18.0975" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="18.0975" y="27.6225" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="LED6" library="CLP6C-FKB-CM1Q1H1BB7R3R3" package="CLP6CFKBCM1Q1H1BB7R3R3" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="27.6225" y="27.6225" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Cree,LED,CLP6C-FKB-CM1Q1H1BB7R3R3 Cree CLP6C-FKB-CM1Q1H1BB7R3R3, CLP6 Series Green LED, 540 nm, PLCC 6, Round Lens SMD Package" x="27.6225" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="2.6mm" x="27.6225" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Cree, Inc." x="27.6225" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="27.6225" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="941-P6CFKBCM1Q1H17R3" x="27.6225" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=941-P6CFKBCM1Q1H17R3" x="27.6225" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="27.6225" y="27.6225" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8106939P" x="27.6225" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8106939P" x="27.6225" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="27.6225" y="27.6225" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="LED7" library="CLP6C-FKB-CM1Q1H1BB7R3R3" package="CLP6CFKBCM1Q1H1BB7R3R3" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="37.1475" y="27.6225" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Cree,LED,CLP6C-FKB-CM1Q1H1BB7R3R3 Cree CLP6C-FKB-CM1Q1H1BB7R3R3, CLP6 Series Green LED, 540 nm, PLCC 6, Round Lens SMD Package" x="37.1475" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="2.6mm" x="37.1475" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Cree, Inc." x="37.1475" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="37.1475" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="941-P6CFKBCM1Q1H17R3" x="37.1475" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=941-P6CFKBCM1Q1H17R3" x="37.1475" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="37.1475" y="27.6225" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8106939P" x="37.1475" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8106939P" x="37.1475" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="37.1475" y="27.6225" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="LED8" library="CLP6C-FKB-CM1Q1H1BB7R3R3" package="CLP6CFKBCM1Q1H1BB7R3R3" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="46.6725" y="27.6225" smashed="yes" rot="R90">
+<attribute name="DESCRIPTION" value="Cree,LED,CLP6C-FKB-CM1Q1H1BB7R3R3 Cree CLP6C-FKB-CM1Q1H1BB7R3R3, CLP6 Series Green LED, 540 nm, PLCC 6, Round Lens SMD Package" x="46.6725" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="HEIGHT" value="2.6mm" x="46.6725" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Cree, Inc." x="46.6725" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="46.6725" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="941-P6CFKBCM1Q1H17R3" x="46.6725" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=941-P6CFKBCM1Q1H17R3" x="46.6725" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="46.6725" y="27.6225" size="1.27" layer="25" rot="R90" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8106939P" x="46.6725" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8106939P" x="46.6725" y="27.6225" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="46.6725" y="27.6225" size="1.27" layer="27" rot="R90" align="center"/>
+</element>
+<element name="LED9" library="CLP6C-FKB-CM1Q1H1BB7R3R3" package="CLP6CFKBCM1Q1H1BB7R3R3" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="63.5" y="9.8425" smashed="yes">
+<attribute name="DESCRIPTION" value="Cree,LED,CLP6C-FKB-CM1Q1H1BB7R3R3 Cree CLP6C-FKB-CM1Q1H1BB7R3R3, CLP6 Series Green LED, 540 nm, PLCC 6, Round Lens SMD Package" x="63.5" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2.6mm" x="63.5" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Cree, Inc." x="63.5" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="63.5" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="941-P6CFKBCM1Q1H17R3" x="63.5" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=941-P6CFKBCM1Q1H17R3" x="63.5" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="63.5" y="9.8425" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8106939P" x="63.5" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8106939P" x="63.5" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="63.5" y="9.8425" size="1.27" layer="27" align="center"/>
+</element>
+<element name="LED10" library="CLP6C-FKB-CM1Q1H1BB7R3R3" package="CLP6CFKBCM1Q1H1BB7R3R3" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="51.1175" y="9.8425" smashed="yes">
+<attribute name="DESCRIPTION" value="Cree,LED,CLP6C-FKB-CM1Q1H1BB7R3R3 Cree CLP6C-FKB-CM1Q1H1BB7R3R3, CLP6 Series Green LED, 540 nm, PLCC 6, Round Lens SMD Package" x="51.1175" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2.6mm" x="51.1175" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Cree, Inc." x="51.1175" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="51.1175" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="941-P6CFKBCM1Q1H17R3" x="51.1175" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=941-P6CFKBCM1Q1H17R3" x="51.1175" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="51.1175" y="9.8425" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8106939P" x="51.1175" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8106939P" x="51.1175" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="51.1175" y="9.8425" size="1.27" layer="27" align="center"/>
+</element>
+<element name="LED11" library="CLP6C-FKB-CM1Q1H1BB7R3R3" package="CLP6CFKBCM1Q1H1BB7R3R3" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="38.735" y="9.8425" smashed="yes">
+<attribute name="DESCRIPTION" value="Cree,LED,CLP6C-FKB-CM1Q1H1BB7R3R3 Cree CLP6C-FKB-CM1Q1H1BB7R3R3, CLP6 Series Green LED, 540 nm, PLCC 6, Round Lens SMD Package" x="38.735" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="2.6mm" x="38.735" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Cree, Inc." x="38.735" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="CLP6C-FKB-CM1Q1H1BB7R3R3" x="38.735" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="941-P6CFKBCM1Q1H17R3" x="38.735" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=941-P6CFKBCM1Q1H17R3" x="38.735" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="38.735" y="9.8425" size="1.27" layer="25" align="center"/>
+<attribute name="RS_PART_NUMBER" value="8106939P" x="38.735" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/8106939P" x="38.735" y="9.8425" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="38.735" y="9.8425" size="1.27" layer="27" align="center"/>
+</element>
+<element name="RN1" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="260" x="85.725" y="14.9225" smashed="yes" rot="MR270">
+<attribute name="FARNELL" value="2908182" x="85.725" y="14.9225" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="MF" value="" x="85.725" y="14.9225" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="MPN" value="" x="85.725" y="14.9225" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="84.201" y="16.7005" size="1.27" layer="26" rot="MR270"/>
+<attribute name="OC_FARNELL" value="unknown" x="85.725" y="14.9225" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="85.725" y="14.9225" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="POPULARITY" value="0" x="85.725" y="14.9225" size="2.54" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="88.519" y="16.7005" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="RN2" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="260" x="23.495" y="11.1125" smashed="yes" rot="MR90">
+<attribute name="FARNELL" value="2908182" x="23.495" y="11.1125" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="" x="23.495" y="11.1125" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="" x="23.495" y="11.1125" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="25.019" y="9.3345" size="1.27" layer="26" rot="MR90"/>
+<attribute name="OC_FARNELL" value="unknown" x="23.495" y="11.1125" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="23.495" y="11.1125" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULARITY" value="0" x="23.495" y="11.1125" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="20.701" y="9.3345" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="RN3" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="400" x="23.495" y="7.3025" smashed="yes" rot="MR90">
+<attribute name="FARNELL" value="2787792" x="23.495" y="7.3025" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="" x="23.495" y="7.3025" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="" x="23.495" y="7.3025" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="25.019" y="5.5245" size="1.27" layer="26" rot="MR90"/>
+<attribute name="OC_FARNELL" value="unknown" x="23.495" y="7.3025" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="23.495" y="7.3025" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULARITY" value="0" x="23.495" y="7.3025" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="20.701" y="5.5245" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="RN5" library="resistor-net" library_urn="urn:adsk.eagle:library:343" package="CTS742C083" package3d_urn="urn:adsk.eagle:package:24985/1" value="160" x="23.495" y="3.4925" smashed="yes" rot="MR90">
+<attribute name="FARNELL" value="2321721" x="23.495" y="3.4925" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="MF" value="" x="23.495" y="3.4925" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="" x="23.495" y="3.4925" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="NAME" x="25.019" y="1.7145" size="1.27" layer="26" rot="MR90"/>
+<attribute name="OC_FARNELL" value="unknown" x="23.495" y="3.4925" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="23.495" y="3.4925" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="POPULARITY" value="0" x="23.495" y="3.4925" size="2.54" layer="28" rot="MR90" display="off"/>
+<attribute name="VALUE" x="20.701" y="1.7145" size="1.27" layer="28" rot="MR90"/>
+</element>
+</elements>
+<signals>
+<signal name="N$18">
+<contactref element="PORT_B" pad="CB2"/>
+<via x="11.7475" y="4.1275" extent="1-16" drill="0.6096"/>
+<wire x1="7.62" y1="24.13" x2="11.7475" y2="24.13" width="0.254" layer="16"/>
+<via x="11.7475" y="24.13" extent="1-16" drill="0.6096"/>
+<wire x1="11.7475" y1="24.13" x2="11.7475" y2="4.1275" width="0.254" layer="1"/>
+<contactref element="RN5" pad="3"/>
+<wire x1="16.8275" y1="4.1275" x2="11.7475" y2="4.1275" width="0.254" layer="16"/>
+<wire x1="22.695" y1="3.8925" x2="17.0625" y2="3.8925" width="0.254" layer="16"/>
+<wire x1="17.0625" y1="3.8925" x2="16.8275" y2="4.1275" width="0.254" layer="16"/>
+</signal>
+<signal name="N$26">
+<contactref element="PORT_B" pad="CB1"/>
+<via x="12.7" y="7.9375" extent="1-16" drill="0.6096"/>
+<wire x1="7.62" y1="26.67" x2="12.7" y2="26.67" width="0.254" layer="16"/>
+<via x="12.7" y="26.67" extent="1-16" drill="0.6096"/>
+<wire x1="12.7" y1="26.67" x2="12.7" y2="7.9375" width="0.254" layer="1"/>
+<contactref element="RN3" pad="3"/>
+<wire x1="22.695" y1="7.7025" x2="16.11" y2="7.7025" width="0.254" layer="16"/>
+<wire x1="16.11" y1="7.7025" x2="15.875" y2="7.9375" width="0.254" layer="16"/>
+<wire x1="15.875" y1="7.9375" x2="12.7" y2="7.9375" width="0.254" layer="16"/>
+</signal>
+<signal name="N$40">
+<contactref element="LED9" pad="1"/>
+<contactref element="RN2" pad="8"/>
+<wire x1="24.295" y1="9.9125" x2="34.995" y2="9.9125" width="0.254" layer="16"/>
+<wire x1="34.995" y1="9.9125" x2="35.8775" y2="10.795" width="0.254" layer="16"/>
+<wire x1="35.8775" y1="10.795" x2="56.515" y2="10.795" width="0.254" layer="16"/>
+<wire x1="56.515" y1="10.795" x2="57.785" y2="12.065" width="0.254" layer="16"/>
+<via x="57.785" y="12.065" extent="1-16" drill="0.6096"/>
+<wire x1="60.8" y1="12.1425" x2="57.8625" y2="12.1425" width="0.254" layer="1"/>
+<wire x1="57.8625" y1="12.1425" x2="57.785" y2="12.065" width="0.254" layer="1"/>
+</signal>
+<signal name="N$41">
+<contactref element="LED10" pad="1"/>
+<contactref element="RN2" pad="7"/>
+<wire x1="24.295" y1="10.7125" x2="33.89" y2="10.7125" width="0.254" layer="16"/>
+<wire x1="33.89" y1="10.7125" x2="34.6075" y2="11.43" width="0.254" layer="16"/>
+<wire x1="44.7675" y1="11.43" x2="34.6075" y2="11.43" width="0.254" layer="16"/>
+<via x="45.4025" y="12.065" extent="1-16" drill="0.6096"/>
+<wire x1="48.4175" y1="12.1425" x2="45.48" y2="12.1425" width="0.254" layer="1"/>
+<wire x1="45.48" y1="12.1425" x2="45.4025" y2="12.065" width="0.254" layer="1"/>
+<wire x1="45.4025" y1="12.065" x2="44.7675" y2="11.43" width="0.254" layer="16"/>
+</signal>
+<signal name="N$42">
+<contactref element="LED11" pad="1"/>
+<contactref element="RN2" pad="6"/>
+<wire x1="24.295" y1="11.5125" x2="32.4675" y2="11.5125" width="0.254" layer="16"/>
+<via x="33.02" y="12.065" extent="1-16" drill="0.6096"/>
+<wire x1="36.035" y1="12.1425" x2="33.0975" y2="12.1425" width="0.254" layer="1"/>
+<wire x1="33.0975" y1="12.1425" x2="33.02" y2="12.065" width="0.254" layer="1"/>
+<wire x1="32.4675" y1="11.5125" x2="33.02" y2="12.065" width="0.254" layer="16"/>
+</signal>
+<signal name="N$43">
+<contactref element="LED11" pad="2"/>
+<contactref element="RN3" pad="6"/>
+<via x="33.02" y="8.5725" extent="1-16" drill="0.6096"/>
+<wire x1="24.295" y1="7.7025" x2="32.15" y2="7.7025" width="0.254" layer="16"/>
+<wire x1="32.15" y1="7.7025" x2="33.02" y2="8.5725" width="0.254" layer="16"/>
+<wire x1="36.035" y1="9.8425" x2="34.29" y2="9.8425" width="0.254" layer="1"/>
+<wire x1="34.29" y1="9.8425" x2="33.02" y2="8.5725" width="0.254" layer="1"/>
+</signal>
+<signal name="N$45">
+<contactref element="LED10" pad="2"/>
+<contactref element="RN3" pad="7"/>
+<via x="45.4025" y="8.5725" extent="1-16" drill="0.6096"/>
+<wire x1="24.295" y1="6.9025" x2="43.7325" y2="6.9025" width="0.254" layer="16"/>
+<wire x1="43.7325" y1="6.9025" x2="45.4025" y2="8.5725" width="0.254" layer="16"/>
+<wire x1="48.4175" y1="9.8425" x2="46.6725" y2="9.8425" width="0.254" layer="1"/>
+<wire x1="46.6725" y1="9.8425" x2="45.4025" y2="8.5725" width="0.254" layer="1"/>
+</signal>
+<signal name="N$12">
+<contactref element="PORT_B" pad="CB6"/>
+<via x="17.145" y="9.8425" extent="1-16" drill="0.6096"/>
+<wire x1="7.62" y1="13.97" x2="17.145" y2="13.97" width="0.254" layer="16"/>
+<via x="17.145" y="13.97" extent="1-16" drill="0.6096"/>
+<wire x1="17.145" y1="13.97" x2="17.145" y2="9.8425" width="0.254" layer="1"/>
+<contactref element="RN2" pad="1"/>
+<wire x1="22.695" y1="9.9125" x2="17.215" y2="9.9125" width="0.254" layer="16"/>
+<wire x1="17.215" y1="9.9125" x2="17.145" y2="9.8425" width="0.254" layer="16"/>
+</signal>
+<signal name="N$13">
+<contactref element="PORT_B" pad="CB9"/>
+</signal>
+<signal name="N$14">
+<contactref element="PORT_B" pad="CB10"/>
+</signal>
+<signal name="N$15">
+<contactref element="PORT_B" pad="CB11"/>
+</signal>
+<signal name="GND">
+<contactref element="PORT_B" pad="GND/"/>
+<contactref element="PORT_D" pad="GND/"/>
+<contactref element="PORT_D" pad="GND//"/>
+<contactref element="PORT_D" pad="GND"/>
+<contactref element="PORT_B" pad="GND"/>
+<polygon width="0.254" layer="1" isolate="0.6096">
+<vertex x="-3.81" y="37.465"/>
+<vertex x="105.7275" y="37.465"/>
+<vertex x="105.7275" y="-1.27"/>
+<vertex x="-3.81" y="-1.27"/>
+</polygon>
+<polygon width="0.1524" layer="16" isolate="0.6096">
+<vertex x="-4.7625" y="39.0525"/>
+<vertex x="106.9975" y="39.0525"/>
+<vertex x="106.9975" y="-2.2225"/>
+<vertex x="-4.7625" y="-2.2225"/>
+</polygon>
+<via x="18.0975" y="27.6225" extent="1-16" drill="0.6096"/>
+<via x="27.6225" y="27.6225" extent="1-16" drill="0.6096"/>
+<via x="37.1475" y="27.6225" extent="1-16" drill="0.6096"/>
+<via x="46.6725" y="27.6225" extent="1-16" drill="0.6096"/>
+<via x="56.1975" y="27.6225" extent="1-16" drill="0.6096"/>
+<via x="65.7225" y="27.6225" extent="1-16" drill="0.6096"/>
+<via x="75.2475" y="27.6225" extent="1-16" drill="0.6096"/>
+<via x="84.7725" y="27.6225" extent="1-16" drill="0.6096"/>
+<contactref element="LED1" pad="6"/>
+<contactref element="LED2" pad="6"/>
+<contactref element="LED3" pad="6"/>
+<contactref element="LED4" pad="6"/>
+<contactref element="LED5" pad="6"/>
+<contactref element="LED6" pad="6"/>
+<contactref element="LED7" pad="6"/>
+<contactref element="LED8" pad="6"/>
+<contactref element="LED9" pad="5"/>
+<contactref element="LED10" pad="5"/>
+<contactref element="LED11" pad="5"/>
+<contactref element="LED9" pad="4"/>
+<contactref element="LED9" pad="6"/>
+<contactref element="LED10" pad="6"/>
+<contactref element="LED10" pad="4"/>
+<contactref element="LED11" pad="4"/>
+<contactref element="LED11" pad="6"/>
+<contactref element="LED1" pad="4"/>
+<contactref element="LED1" pad="5"/>
+<contactref element="LED2" pad="4"/>
+<contactref element="LED2" pad="5"/>
+<contactref element="LED3" pad="5"/>
+<contactref element="LED3" pad="4"/>
+<contactref element="LED4" pad="5"/>
+<contactref element="LED4" pad="4"/>
+<contactref element="LED5" pad="5"/>
+<contactref element="LED5" pad="4"/>
+<contactref element="LED6" pad="5"/>
+<contactref element="LED6" pad="4"/>
+<contactref element="LED7" pad="5"/>
+<contactref element="LED7" pad="4"/>
+<contactref element="LED8" pad="5"/>
+<contactref element="LED8" pad="4"/>
+</signal>
+<signal name="N$8">
+<contactref element="LED9" pad="2"/>
+<contactref element="RN3" pad="8"/>
+<via x="57.785" y="8.89" extent="1-16" drill="0.6096"/>
+<wire x1="24.295" y1="6.1025" x2="54.9975" y2="6.1025" width="0.254" layer="16"/>
+<wire x1="54.9975" y1="6.1025" x2="57.785" y2="8.89" width="0.254" layer="16"/>
+<wire x1="60.8" y1="9.8425" x2="58.7375" y2="9.8425" width="0.254" layer="1"/>
+<wire x1="58.7375" y1="9.8425" x2="57.785" y2="8.89" width="0.254" layer="1"/>
+</signal>
+<signal name="N$1">
+<contactref element="LED1" pad="1"/>
+<via x="53.975" y="22.5425" extent="1-16" drill="0.35"/>
+<contactref element="RN4" pad="5"/>
+<wire x1="53.975" y1="22.5425" x2="53.975" y2="24.845" width="0.254" layer="1"/>
+<wire x1="53.975" y1="24.845" x2="53.8975" y2="24.9225" width="0.254" layer="1"/>
+<wire x1="84.925" y1="17.215" x2="57.715" y2="17.215" width="0.254" layer="16"/>
+<wire x1="57.715" y1="17.215" x2="53.975" y2="20.955" width="0.254" layer="16"/>
+<wire x1="53.975" y1="20.955" x2="53.975" y2="22.5425" width="0.254" layer="16"/>
+</signal>
+<signal name="N$2">
+<contactref element="LED2" pad="1"/>
+<via x="63.5" y="22.5425" extent="1-16" drill="0.35"/>
+<contactref element="RN4" pad="6"/>
+<wire x1="63.5" y1="22.5425" x2="63.5" y2="24.845" width="0.254" layer="1"/>
+<wire x1="63.5" y1="24.845" x2="63.4225" y2="24.9225" width="0.254" layer="1"/>
+<wire x1="84.925" y1="18.015" x2="66.44" y2="18.015" width="0.254" layer="16"/>
+<wire x1="66.44" y1="18.015" x2="63.5" y2="20.955" width="0.254" layer="16"/>
+<wire x1="63.5" y1="20.955" x2="63.5" y2="22.5425" width="0.254" layer="16"/>
+</signal>
+<signal name="N$3">
+<contactref element="LED3" pad="1"/>
+<via x="73.025" y="22.5425" extent="1-16" drill="0.35"/>
+<contactref element="RN4" pad="7"/>
+<wire x1="73.025" y1="22.5425" x2="73.025" y2="24.845" width="0.254" layer="1"/>
+<wire x1="73.025" y1="24.845" x2="72.9475" y2="24.9225" width="0.254" layer="1"/>
+<wire x1="84.925" y1="18.815" x2="75.165" y2="18.815" width="0.254" layer="16"/>
+<wire x1="75.165" y1="18.815" x2="73.025" y2="20.955" width="0.254" layer="16"/>
+<wire x1="73.025" y1="20.955" x2="73.025" y2="22.5425" width="0.254" layer="16"/>
+</signal>
+<signal name="N$4">
+<contactref element="LED4" pad="1"/>
+<via x="82.55" y="22.5425" extent="1-16" drill="0.35"/>
+<contactref element="RN4" pad="8"/>
+<wire x1="82.55" y1="22.5425" x2="82.55" y2="24.845" width="0.254" layer="1"/>
+<wire x1="82.55" y1="24.845" x2="82.4725" y2="24.9225" width="0.254" layer="1"/>
+<wire x1="84.925" y1="19.615" x2="83.89" y2="19.615" width="0.254" layer="16"/>
+<wire x1="83.89" y1="19.615" x2="82.55" y2="20.955" width="0.254" layer="16"/>
+<wire x1="82.55" y1="20.955" x2="82.55" y2="22.5425" width="0.254" layer="16"/>
+</signal>
+<signal name="N$7">
+<via x="34.925" y="22.5425" extent="1-16" drill="0.35"/>
+<contactref element="LED7" pad="1"/>
+<contactref element="RN1" pad="7"/>
+<wire x1="34.925" y1="22.5425" x2="34.925" y2="24.845" width="0.254" layer="1"/>
+<wire x1="34.925" y1="24.845" x2="34.8475" y2="24.9225" width="0.254" layer="1"/>
+<wire x1="84.925" y1="15.3225" x2="40.5575" y2="15.3225" width="0.254" layer="16"/>
+<wire x1="40.5575" y1="15.3225" x2="34.925" y2="20.955" width="0.254" layer="16"/>
+<wire x1="34.925" y1="20.955" x2="34.925" y2="22.5425" width="0.254" layer="16"/>
+</signal>
+<signal name="N$9">
+<via x="44.45" y="22.5425" extent="1-16" drill="0.35"/>
+<contactref element="LED8" pad="1"/>
+<contactref element="RN1" pad="8"/>
+<wire x1="44.45" y1="22.5425" x2="44.45" y2="24.845" width="0.254" layer="1"/>
+<wire x1="44.45" y1="24.845" x2="44.3725" y2="24.9225" width="0.254" layer="1"/>
+<wire x1="84.925" y1="16.1225" x2="49.2825" y2="16.1225" width="0.254" layer="16"/>
+<wire x1="49.2825" y1="16.1225" x2="44.45" y2="20.955" width="0.254" layer="16"/>
+<wire x1="44.45" y1="20.955" x2="44.45" y2="22.5425" width="0.254" layer="16"/>
+</signal>
+<signal name="N$19">
+<contactref element="PORT_D" pad="AD2"/>
+<contactref element="RN1" pad="2"/>
+<wire x1="86.525" y1="15.3225" x2="93.2625" y2="15.3225" width="0.254" layer="16"/>
+<wire x1="93.2625" y1="15.3225" x2="97.155" y2="11.43" width="0.254" layer="16"/>
+<wire x1="97.155" y1="11.43" x2="101.6" y2="11.43" width="0.254" layer="16"/>
+</signal>
+<signal name="N$20">
+<contactref element="PORT_D" pad="AD3"/>
+<contactref element="RN1" pad="1"/>
+<wire x1="86.525" y1="16.1225" x2="93.7325" y2="16.1225" width="0.254" layer="16"/>
+<wire x1="93.7325" y1="16.1225" x2="95.885" y2="13.97" width="0.254" layer="16"/>
+<wire x1="95.885" y1="13.97" x2="101.6" y2="13.97" width="0.254" layer="16"/>
+</signal>
+<signal name="N$21">
+<contactref element="PORT_D" pad="AD7"/>
+<contactref element="RN4" pad="1"/>
+<wire x1="101.6" y1="24.13" x2="97.79" y2="24.13" width="0.254" layer="16"/>
+<wire x1="86.525" y1="19.615" x2="93.275" y2="19.615" width="0.254" layer="16"/>
+<wire x1="93.275" y1="19.615" x2="97.79" y2="24.13" width="0.254" layer="16"/>
+</signal>
+<signal name="N$23">
+<contactref element="PORT_D" pad="AD5"/>
+<contactref element="RN4" pad="3"/>
+<wire x1="86.525" y1="18.015" x2="94.215" y2="18.015" width="0.254" layer="16"/>
+<wire x1="94.215" y1="18.015" x2="95.25" y2="19.05" width="0.254" layer="16"/>
+<wire x1="95.25" y1="19.05" x2="101.6" y2="19.05" width="0.254" layer="16"/>
+</signal>
+<signal name="N$24">
+<contactref element="PORT_D" pad="AD4"/>
+<contactref element="RN4" pad="4"/>
+<wire x1="86.525" y1="17.215" x2="94.545" y2="17.215" width="0.254" layer="16"/>
+<wire x1="94.545" y1="17.215" x2="95.25" y2="16.51" width="0.254" layer="16"/>
+<wire x1="95.25" y1="16.51" x2="101.6" y2="16.51" width="0.254" layer="16"/>
+</signal>
+<signal name="N$22">
+<contactref element="PORT_D" pad="AD6"/>
+<contactref element="RN4" pad="2"/>
+<wire x1="86.525" y1="18.815" x2="93.745" y2="18.815" width="0.254" layer="16"/>
+<wire x1="101.6" y1="21.59" x2="96.52" y2="21.59" width="0.254" layer="16"/>
+<wire x1="96.52" y1="21.59" x2="93.745" y2="18.815" width="0.254" layer="16"/>
+</signal>
+<signal name="N$10">
+<contactref element="PORT_D" pad="AD0"/>
+<contactref element="RN1" pad="4"/>
+<wire x1="86.525" y1="13.7225" x2="92.3225" y2="13.7225" width="0.254" layer="16"/>
+<wire x1="92.3225" y1="13.7225" x2="99.695" y2="6.35" width="0.254" layer="16"/>
+<wire x1="99.695" y1="6.35" x2="101.6" y2="6.35" width="0.254" layer="16"/>
+</signal>
+<signal name="N$16">
+<contactref element="PORT_D" pad="AD1"/>
+<contactref element="RN1" pad="3"/>
+<wire x1="86.525" y1="14.5225" x2="92.7925" y2="14.5225" width="0.254" layer="16"/>
+<wire x1="92.7925" y1="14.5225" x2="98.425" y2="8.89" width="0.254" layer="16"/>
+<wire x1="98.425" y1="8.89" x2="101.6" y2="8.89" width="0.254" layer="16"/>
+</signal>
+<signal name="N$25">
+<contactref element="LED5" pad="1"/>
+<contactref element="RN1" pad="5"/>
+<via x="15.875" y="22.5425" extent="1-16" drill="0.35"/>
+<wire x1="15.875" y1="22.5425" x2="15.875" y2="24.845" width="0.254" layer="1"/>
+<wire x1="15.875" y1="24.845" x2="15.7975" y2="24.9225" width="0.254" layer="1"/>
+<wire x1="84.925" y1="13.7225" x2="23.1075" y2="13.7225" width="0.254" layer="16"/>
+<wire x1="23.1075" y1="13.7225" x2="15.875" y2="20.955" width="0.254" layer="16"/>
+<wire x1="15.875" y1="20.955" x2="15.875" y2="22.5425" width="0.254" layer="16"/>
+</signal>
+<signal name="N$31">
+<contactref element="LED6" pad="1"/>
+<contactref element="RN1" pad="6"/>
+<via x="25.4" y="22.5425" extent="1-16" drill="0.35"/>
+<wire x1="25.4" y1="22.5425" x2="25.4" y2="24.845" width="0.254" layer="1"/>
+<wire x1="25.4" y1="24.845" x2="25.3225" y2="24.9225" width="0.254" layer="1"/>
+<wire x1="84.925" y1="14.5225" x2="31.8325" y2="14.5225" width="0.254" layer="16"/>
+<wire x1="31.8325" y1="14.5225" x2="25.4" y2="20.955" width="0.254" layer="16"/>
+<wire x1="25.4" y1="20.955" x2="25.4" y2="22.5425" width="0.254" layer="16"/>
+</signal>
+<signal name="N$5">
+<contactref element="PORT_B" pad="CB3"/>
+<contactref element="RN2" pad="2"/>
+<via x="10.795" y="10.795" extent="1-16" drill="0.6096"/>
+<wire x1="7.62" y1="21.59" x2="10.795" y2="21.59" width="0.254" layer="16"/>
+<via x="10.795" y="21.59" extent="1-16" drill="0.6096"/>
+<wire x1="10.795" y1="21.59" x2="10.795" y2="10.795" width="0.254" layer="1"/>
+<wire x1="22.695" y1="10.7125" x2="10.8775" y2="10.7125" width="0.254" layer="16"/>
+<wire x1="10.8775" y1="10.7125" x2="10.795" y2="10.795" width="0.254" layer="16"/>
+</signal>
+<signal name="N$33">
+<contactref element="PORT_B" pad="CB8"/>
+<wire x1="9.8425" y1="8.255" x2="9.2075" y2="8.89" width="0.254" layer="16"/>
+<wire x1="7.62" y1="8.89" x2="9.2075" y2="8.89" width="0.254" layer="16"/>
+<wire x1="12.065" y1="2.2225" x2="9.8425" y2="4.445" width="0.254" layer="16"/>
+<wire x1="9.8425" y1="4.445" x2="9.8425" y2="8.255" width="0.254" layer="16"/>
+<contactref element="RN5" pad="1"/>
+<wire x1="22.695" y1="2.2925" x2="17.215" y2="2.2925" width="0.254" layer="16"/>
+<wire x1="17.215" y1="2.2925" x2="17.145" y2="2.2225" width="0.254" layer="16"/>
+<wire x1="17.145" y1="2.2225" x2="12.065" y2="2.2225" width="0.254" layer="16"/>
+</signal>
+<signal name="N$34">
+<contactref element="PORT_B" pad="CB5"/>
+<contactref element="RN5" pad="2"/>
+<via x="15.875" y="3.175" extent="1-16" drill="0.6096"/>
+<wire x1="7.62" y1="16.51" x2="15.875" y2="16.51" width="0.254" layer="16"/>
+<via x="15.875" y="16.51" extent="1-16" drill="0.6096"/>
+<wire x1="15.875" y1="16.51" x2="15.875" y2="3.175" width="0.254" layer="1"/>
+<wire x1="22.695" y1="3.0925" x2="15.9575" y2="3.0925" width="0.254" layer="16"/>
+<wire x1="15.9575" y1="3.0925" x2="15.875" y2="3.175" width="0.254" layer="16"/>
+</signal>
+<signal name="N$35">
+<contactref element="PORT_B" pad="CB4"/>
+<contactref element="RN3" pad="2"/>
+<via x="14.9225" y="6.985" extent="1-16" drill="0.6096"/>
+<wire x1="7.62" y1="19.05" x2="14.605" y2="19.05" width="0.254" layer="16"/>
+<via x="14.605" y="19.05" extent="1-16" drill="0.6096"/>
+<wire x1="14.605" y1="19.05" x2="14.9225" y2="18.7325" width="0.254" layer="1"/>
+<wire x1="14.9225" y1="18.7325" x2="14.9225" y2="6.985" width="0.254" layer="1"/>
+<wire x1="22.695" y1="6.9025" x2="15.005" y2="6.9025" width="0.254" layer="16"/>
+<wire x1="15.005" y1="6.9025" x2="14.9225" y2="6.985" width="0.254" layer="16"/>
+</signal>
+<signal name="N$36">
+<contactref element="LED9" pad="3"/>
+<contactref element="RN5" pad="8"/>
+<via x="57.785" y="5.08" extent="1-16" drill="0.6096"/>
+<wire x1="24.295" y1="2.2925" x2="54.9975" y2="2.2925" width="0.254" layer="16"/>
+<wire x1="54.9975" y1="2.2925" x2="57.785" y2="5.08" width="0.254" layer="16"/>
+<wire x1="60.8" y1="7.5425" x2="58.66" y2="7.5425" width="0.254" layer="1"/>
+<wire x1="58.66" y1="7.5425" x2="57.785" y2="6.6675" width="0.254" layer="1"/>
+<wire x1="57.785" y1="6.6675" x2="57.785" y2="5.08" width="0.254" layer="1"/>
+</signal>
+<signal name="N$37">
+<contactref element="LED10" pad="3"/>
+<contactref element="RN5" pad="7"/>
+<via x="45.4025" y="5.08" extent="1-16" drill="0.6096"/>
+<wire x1="24.295" y1="3.0925" x2="43.415" y2="3.0925" width="0.254" layer="16"/>
+<wire x1="43.415" y1="3.0925" x2="45.4025" y2="5.08" width="0.254" layer="16"/>
+<wire x1="48.4175" y1="7.5425" x2="46.2775" y2="7.5425" width="0.254" layer="1"/>
+<wire x1="46.2775" y1="7.5425" x2="45.4025" y2="6.6675" width="0.254" layer="1"/>
+<wire x1="45.4025" y1="6.6675" x2="45.4025" y2="5.08" width="0.254" layer="1"/>
+</signal>
+<signal name="N$38">
+<contactref element="LED11" pad="3"/>
+<contactref element="RN5" pad="6"/>
+<via x="33.02" y="5.08" extent="1-16" drill="0.6096"/>
+<wire x1="24.295" y1="3.8925" x2="31.8325" y2="3.8925" width="0.254" layer="16"/>
+<wire x1="31.8325" y1="3.8925" x2="33.02" y2="5.08" width="0.254" layer="16"/>
+<wire x1="36.035" y1="7.5425" x2="33.895" y2="7.5425" width="0.254" layer="1"/>
+<wire x1="33.895" y1="7.5425" x2="33.02" y2="6.6675" width="0.254" layer="1"/>
+<wire x1="33.02" y1="6.6675" x2="33.02" y2="5.08" width="0.254" layer="1"/>
+</signal>
+<signal name="N$6">
+<contactref element="PORT_B" pad="CB0"/>
+<via x="13.6525" y="11.7475" extent="1-16" drill="0.6096"/>
+<wire x1="7.62" y1="29.21" x2="13.6525" y2="29.21" width="0.254" layer="16"/>
+<via x="13.6525" y="29.21" extent="1-16" drill="0.6096"/>
+<wire x1="13.6525" y1="29.21" x2="13.6525" y2="11.7475" width="0.254" layer="1"/>
+<contactref element="RN2" pad="3"/>
+<wire x1="22.695" y1="11.5125" x2="13.8875" y2="11.5125" width="0.254" layer="16"/>
+<wire x1="13.8875" y1="11.5125" x2="13.6525" y2="11.7475" width="0.254" layer="16"/>
+</signal>
+<signal name="N$30">
+<contactref element="PORT_B" pad="CB7"/>
+<wire x1="7.62" y1="11.43" x2="9.2075" y2="11.43" width="0.254" layer="16"/>
+<wire x1="9.2075" y1="11.43" x2="9.525" y2="11.1125" width="0.254" layer="16"/>
+<wire x1="9.525" y1="9.85408125" x2="10.6172" y2="8.76188125" width="0.254" layer="16"/>
+<wire x1="10.6172" y1="7.1628" x2="10.6172" y2="8.76188125" width="0.254" layer="16"/>
+<wire x1="9.525" y1="11.1125" x2="9.525" y2="9.85408125" width="0.254" layer="16"/>
+<contactref element="RN3" pad="1"/>
+<wire x1="22.695" y1="6.1025" x2="16.2625" y2="6.1025" width="0.254" layer="16"/>
+<wire x1="16.2625" y1="6.1025" x2="16.1925" y2="6.0325" width="0.254" layer="16"/>
+<wire x1="16.1925" y1="6.0325" x2="11.7475" y2="6.0325" width="0.254" layer="16"/>
+<wire x1="11.7475" y1="6.0325" x2="10.6172" y2="7.1628" width="0.254" layer="16"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+</board>
+</drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
